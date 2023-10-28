@@ -8,3 +8,7 @@
 3)Criar tabela clientes: Mantenha informações dos clientes, como nome, endereço de entrega e informações de contato:
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/0184ae8f-2cbb-4279-bd8d-9b8b94a65b46)
 
+4)Itens de Pedido: Registre os produtos incluídos em cada pedido, junto com a quantidade:
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/437e15e6-357f-4cd0-ae2d-e96779f643cd)
+
+
