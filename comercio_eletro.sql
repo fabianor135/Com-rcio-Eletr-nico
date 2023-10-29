@@ -3,30 +3,32 @@ create table produtos (
     nome varchar(255),
     descricao varchar(255),
     preco decimal(10, 2),
+    valorunitario decimal(10, 2),
     quantidadeemestoque int
 );
 
--- Inserir produtos de exemplo na tabela "produtos"
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(1,'Smartphone Modelo Samsung', 'Um smartphone de última geração', 699.99, 50);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(2, 'Notebook Ultra Slim', 'Um notebook ultrafino e leve', 1199.99, 30);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(3, 'Tablet Android Pro', 'Tablet de alto desempenho com Android', 349.99, 40);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(4, 'Smart TV 4K', 'Uma Smart TV com qualidade de imagem 4K', 799.99, 20);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(5, 'Câmera DSLR Profissional', 'Câmera de alta resolução para fotografia profissional', 1299.99, 15);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(6, 'Fone de Ouvido Bluetooth', 'Fone de ouvido sem fio com cancelamento de ruído', 129.99, 100);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(7, 'Monitor UltraWide', 'Monitor de alta resolução para multitarefa', 499.99, 25);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(8, 'Console de Jogos X-Play', 'Console de última geração para jogos', 399.99, 30);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(9, 'Impressora Multifuncional', 'Impressora com funções de scanner e cópia', 199.99, 35);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(10, 'Relógio Inteligente', 'Relógio com recursos inteligentes e monitoramento de saúde', 149.99, 60);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(11, 'Roteador Wi-Fi Gigabit', 'Roteador de alta velocidade para rede doméstica', 79.99, 50);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(12, 'Teclado Mecânico RGB', 'Teclado para jogos com iluminação personalizável', 69.99, 40);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(13, 'Mouse Gamer com Sensor Avançado', 'Mouse de precisão para jogos', 49.99, 55);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(14, 'Mochila para Notebook', 'Mochila resistente para transporte seguro', 39.99, 75);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(15, 'Bateria Externa Portátil', 'Bateria externa para recarregar dispositivos', 29.99, 90);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(16, 'Cadeira Gamer Ergonômica', 'Cadeira confortável para maratonas de jogos', 199.99, 20);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(17, 'Caixa de Som Bluetooth', 'Caixa de som portátil com alta qualidade de áudio', 59.99, 45);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(18, 'Câmera de Segurança IP', 'Câmera de segurança para monitoramento remoto', 79.99, 30);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(19, 'Auriculares Esportivos', 'Fones de ouvido à prova dágua para esportes', 49.99, 60);
-INSERT INTO produtos (id, nome, descricao, preco, quantidadeemestoque) VALUES(20, 'Robô de Limpeza Inteligente', 'Robô autônomo para limpeza de ambientes', 249.99, 15);
+
+
+INSERT INTO produtos (id, nome, descricao, preco, valorunitario, quantidadeemestoque) VALUES(1,'Smartphone Modelo Samsung', 'Um smartphone de última geração', 699.99,699.99, 50);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario,quantidadeemestoque) VALUES(2, 'Notebook Ultra Slim', 'Um notebook ultrafino e leve', 1199.99, 1199.99, 30);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario,quantidadeemestoque) VALUES(3, 'Tablet Android Pro', 'Tablet de alto desempenho com Android', 349.99,349.99, 40);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario,quantidadeemestoque) VALUES(4, 'Smart TV 4K', 'Uma Smart TV com qualidade de imagem 4K', 799.99,799.99, 20);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(5, 'Câmera DSLR Profissional', 'Câmera de alta resolução para fotografia profissional', 1299.99,1299.99, 15);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(6, 'Fone de Ouvido Bluetooth', 'Fone de ouvido sem fio com cancelamento de ruído', 129.99,129.99, 100);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(7, 'Monitor UltraWide', 'Monitor de alta resolução para multitarefa', 499.99,499.99, 25);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(8, 'Console de Jogos X-Play', 'Console de última geração para jogos', 399.99,399.99, 30);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(9, 'Impressora Multifuncional', 'Impressora com funções de scanner e cópia', 199.99,199.99,  35);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(10, 'Relógio Inteligente', 'Relógio com recursos inteligentes e monitoramento de saúde', 149.99,149.99, 60);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(11, 'Roteador Wi-Fi Gigabit', 'Roteador de alta velocidade para rede doméstica', 79.99,79.99, 50);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(12, 'Teclado Mecânico RGB', 'Teclado para jogos com iluminação personalizável', 69.99,69.99, 40);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(13, 'Mouse Gamer com Sensor Avançado', 'Mouse de precisão para jogos', 49.99,49.99, 55);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(14, 'Mochila para Notebook', 'Mochila resistente para transporte seguro', 39.99, 39.99,75);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(15, 'Bateria Externa Portátil', 'Bateria externa para recarregar dispositivos', 29.99,29.99, 90);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(16, 'Cadeira Gamer Ergonômica', 'Cadeira confortável para maratonas de jogos', 199.99, 199.99,20);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(17, 'Caixa de Som Bluetooth', 'Caixa de som portátil com alta qualidade de áudio', 59.99,59.99,  45);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(18, 'Câmera de Segurança IP', 'Câmera de segurança para monitoramento remoto', 79.99,79.99,  30);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(19, 'Auriculares Esportivos', 'Fones de ouvido à prova dágua para esportes', 49.99,49.99, 60);
+INSERT INTO produtos (id, nome, descricao, preco,valorunitario, quantidadeemestoque) VALUES(20, 'Robô de Limpeza Inteligente', 'Robô autônomo para limpeza de ambientes', 249.99,249.99,  15);
 
 
 create table clientes (
@@ -65,7 +67,7 @@ create table pedidos (
     foreign key (clienteid) references clientes(id)
 );
 
--- inserir pedidos de exemplo na tabela "pedidos"
+
 insert into pedidos (id, datapedido, clienteid, statuspedido) values(1, '2023-10-01', 1, 'em processamento');
 insert into pedidos (id, datapedido, clienteid, statuspedido) values(2, '2023-10-02', 2, 'aguardando pagamento');
 insert into pedidos (id, datapedido, clienteid, statuspedido) values(3, '2023-10-03', 3, 'em processamento');
@@ -88,15 +90,15 @@ insert into pedidos (id, datapedido, clienteid, statuspedido) values(19, '2023-1
 insert into pedidos (id, datapedido, clienteid, statuspedido) values(20, '2023-10-20', 20, 'entregue');
 
 
-create table itensdepedido (
-    id int primary key,
+create table itensdepedido  (
+    id int primary key auto_increment,
     pedidoid int,
     produtoid int,
     quantidade int,
     foreign key (pedidoid) references pedidos(id),
     foreign key (produtoid) references produtos(id)
 );
--- inserir itens de pedido de exemplo na tabela "itensdepedido"
+
 insert into itensdepedido (id, pedidoid, produtoid, quantidade) values(1, 1, 1, 2);
 insert into itensdepedido (id, pedidoid, produtoid, quantidade) values(2, 1, 3, 1);
 insert into itensdepedido (id, pedidoid, produtoid, quantidade) values(3, 2, 5, 3);
@@ -128,8 +130,6 @@ create table carrinho (
     foreign key (clienteid) references clientes(id),
     foreign key (produtoid) references produtos(id)
 );
-
--- inserir itens no carrinho de exemplo na tabela "carrinho"
 insert into carrinho (clienteid, produtoid, quantidade) values(1, 1, 3);
 insert into carrinho (clienteid, produtoid, quantidade) values(2, 3, 2);
 insert into carrinho (clienteid, produtoid, quantidade) values(3, 5, 1);
@@ -151,77 +151,149 @@ insert into carrinho (clienteid, produtoid, quantidade) values(18, 16, 2);
 insert into carrinho (clienteid, produtoid, quantidade) values(19, 18, 3);
 insert into carrinho (clienteid, produtoid, quantidade) values(20, 20, 2);
 
+create table itensdepedido_has_produtos (
+  itensdepedido_id int not null,
+  produtos_id int not null,
+  primary key (itensdepedido_id, produtos_id),
+  foreign key (itensdepedido_id) references itensdepedido (id),
+  foreign key (produtos_id) references produtos (id)
+) engine=innodb;
+
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (1, 1);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (2, 2);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (3, 3);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (4, 4);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (5, 5);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (6, 6);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (7, 7);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (8, 8);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (9, 9);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (10, 10);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (11, 11);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (12, 12);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (13, 13);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (14, 14);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (15, 15);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (16, 16);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (17, 17);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (18, 18);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (19, 19);
+insert into itensdepedido_has_produtos (itensdepedido_id, produtos_id) values (20, 20);
+
+create table clientes_has_pedidos (
+  clientes_id int not null,
+  pedidos_id int not null,
+  primary key (clientes_id, pedidos_id),
+  foreign key (clientes_id) references clientes (id),
+  foreign key (pedidos_id) references pedidos (id)
+) engine=innodb;
+
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(1, 1);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(2, 2);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(3, 3);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(4, 4);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(5, 5);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(6, 6);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(7, 7);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(8, 8);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(9, 9);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(10, 10);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(11, 11);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(12, 12);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(13, 13);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(14, 14);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(15, 15);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(16, 16);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(17, 17);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(18, 18);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(19, 19);
+insert into clientes_has_pedidos(clientes_id, pedidos_id) values(20, 20);
 
 
--- Implemente uma stored procedure para permitir que os clientes adicionem produtos ao carrinho de compras.
+
+
+
 delimiter $$
 
-create procedure adicionaraocarrinho(
+create procedure adicionarprodutoaocarrinho(
     in cliente_id int,
     in produto_id int,
     in quantidade int
 )
 begin
-    -- verifica se o cliente e o produto existem
-    declare cliente_exists int;
-    declare produto_exists int;
-    select count(*) into cliente_exists from clientes where id = cliente_id;
-    select count(*) into produto_exists from produtos where id = produto_id;
+    declare produto_disponivel int;
+    
+    -- verificar se o produto está disponível em estoque
+    select if(quantidadeemestoque >= quantidade, 1, 0) into produto_disponivel
+    from produtos
+    where id = produto_id;
 
-    if cliente_exists = 0 or produto_exists = 0 then
-        signal sqlstate '45000'
-        set message_text = 'cliente ou produto não encontrado.';
-    else
-        -- insere o pedido no carrinho do cliente
+    if produto_disponivel = 1 then
+        -- inserir o produto no carrinho do cliente
         insert into carrinho (clienteid, produtoid, quantidade)
         values (cliente_id, produto_id, quantidade);
+    else
+        signal sqlstate '45000'
+        set message_text = 'produto indisponível em estoque.';
     end if;
 end$$
 
 delimiter ;
 
--- Crie uma stored procedure para processar pedidos, atualizando o estoque de produtos e registrando os detalhes do pedido.
+
 delimiter $$
 
-create procedure processarpedido(
+create procedure `processarpedido`(
     in pedido_id int,
     in cliente_id int
 )
 begin
     declare data_pedido date;
-    
-    -- obter a data atual
-    set data_pedido = curdate();
+    declare pedido_a_atualizar int; -- variável para armazenar o pedido a ser atualizado
+    declare valor_total decimal(10, 2);
 
-    -- inserir o pedido na tabela "pedidos"
-    insert into pedidos (id, datapedido, clienteid, statuspedido)
-    values (pedido_id, data_pedido, cliente_id, 'em processamento');
+ 
+select MAX(datapedido) into data_pedido from pedidos;
 
-    -- atualizar o estoque do produto e calcular o valor total do pedido
-    update produtos
-    join carrinho on produtos.id = carrinho.produtoid
-    set produtos.quantidadeemestoque = produtos.quantidadeemestoque - carrinho.quantidade
-    where carrinho.pedidoid = pedido_id;
 
-    -- registrar o detalhe do pedido na tabela "itensdepedido"
-    insert into itensdepedido (pedidoid, produtoid, quantidade, valorunitario)
-    select pedido_id, produtoid, quantidade, preco
-    from produtos
-    where produtos.id = carrinho.produtoid;
 
-    -- atualizar o status do pedido
+    insert into pedidos (datapedido, clienteid, statuspedido)
+    values (data_pedido, cliente_id, 'em processamento');
+
+ 
+    set pedido_a_atualizar = last_insert_id();
+
+  
+    select sum(carrinho.quantidade * produtos.valorunitario) into valor_total
+    from carrinho
+    join produtos on carrinho.produtoid = produtos.id
+    where carrinho.clienteid = cliente_id;
+
+   
+    update pedidos
+    set valorpedido = valor_total
+    where id = pedido_a_atualizar;
+
+ 
     update pedidos
     set statuspedido = 'aguardando pagamento'
-    where id = pedido_id;
-    
-    -- remover os produtos do carrinho
-    delete from carrinho where pedidoid = pedido_id;
+    where id = pedido_a_atualizar;
+
+   
+    insert into itensdepedido (pedidoid, produtoid, quantidade)
+    select pedido_a_atualizar, produtoid, quantidade
+    from carrinho
+    where carrinho.clienteid = cliente_id;
+
+ 
+    delete from carrinho where clienteid = cliente_id;
 end$$
 
 delimiter ;
 
 
--- Desenvolva uma stored procedure para calcular o total de um pedido com base nos produtos incluídos.
+
+
 delimiter $$
 
 create procedure calculartotalpedido(
@@ -230,33 +302,56 @@ create procedure calculartotalpedido(
 begin
     declare total decimal(10, 2);
 
-    -- calcular o total do pedido com base nos preços dos produtos no histórico de pedidos
+  
     select sum(produtos.preco * itensdepedido.quantidade) into total
     from itensdepedido
     join produtos on itensdepedido.produtoid = produtos.id
     where itensdepedido.pedidoid = pedido_id;
 
-    -- atualizar o valor total do pedido na tabela "pedidos"
+
     update pedidos
     set valorpedido = total
     where id = pedido_id;
+end$$
+
+delimiter $$
+
+
+create trigger atualizar_estoque_produto 
+after insert on carrinho
+for each row
+begin
+
+    update produtos
+    set quantidadeemestoque = quantidadeemestoque - new.quantidade
+    where id = new.produtoid;
+
+ 
+    if (select quantidadeemestoque from produtos where id = new.produtoid) <= 0 then
+     
+        signal sqlstate '45000' set message_text = 'produto em falta no estoque';
+    end if;
 end$$
 
 delimiter ;
 
 
 
--- Crie uma view que mostre o histórico de pedidos de um cliente específico, incluindo os produtos incluídos em cada pedido
+
+
 create view historicodepedidos as
 select pedidos.id as pedidoid, pedidos.datapedido as datapedido, produtos.nome as nomeproduto, itensdepedido.quantidade as quantidade, pedidos.statuspedido as status
 from pedidos
 join itensdepedido on pedidos.id = itensdepedido.pedidoid
 join produtos on itensdepedido.produtoid = produtos.id;
 
--- Implemente uma view que forneça uma lista de todos os produtos disponíveis, excluindo aqueles que estão esgotados.
+
 create view produtosdisponiveis as
 select id, nome, descricao, preco, quantidadeemestoque
 from produtos
 where quantidadeemestoque > 0;
 
-alter table pedidos add column valorpedido decimal(10, 2);
+
+
+
+
