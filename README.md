@@ -2,6 +2,7 @@
 
 TABELAS:
 
+
 1) Criar tabela produtos: Armazene informações sobre produtos, como nome, descrição, preço e quantidade em estoque:
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/e0591e61-ade7-496c-8346-e1013e1439cf)
 
@@ -16,6 +17,7 @@ TABELAS:
 
 RELACIONAMENTOS:
 
+
 1)Crie um relacionamento entre "Pedidos" e "Clientes" para rastrear os pedidos de cada cliente:
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/c13fea4f-1d3d-44e2-8583-543cde10a228)
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/a994e499-5df0-4569-b9f6-fde2b1175622)
@@ -26,6 +28,8 @@ RELACIONAMENTOS:
 
 
 STORED PROCEDURES:
+
+
 1)Implemente uma stored procedure para permitir que os clientes adicionem produtos ao carrinho de compras:
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/79fda56c-78dd-4059-bcdb-73432a4a4c3e)
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/1453a5b8-fc31-42b2-99d2-eb739b9b83d2)
@@ -38,6 +42,8 @@ STORED PROCEDURES:
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/7e54cc4f-9c4c-4bb1-a031-a56e3d41e11b)
 
 VIEWS:
+
+
 1)Crie uma view que mostre o histórico de pedidos de um cliente específico, incluindo os produtos incluídos em cada pedido:
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/dc4afa36-0c27-40de-b088-4bbc5d33bc8e)
 
