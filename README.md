@@ -25,6 +25,29 @@ RELACIONAMENTOS:
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/89ede310-c7c9-45b3-b735-45f30067d8d7)
 
 
+STORED PROCEDURES:
+1)Implemente uma stored procedure para permitir que os clientes adicionem produtos ao carrinho de compras:
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/79fda56c-78dd-4059-bcdb-73432a4a4c3e)
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/1453a5b8-fc31-42b2-99d2-eb739b9b83d2)
+
+2)Crie uma stored procedure para processar pedidos, atualizando o estoque de produtos e registrando os detalhes do pedido:
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/af8faafe-342d-42a7-8fba-8b660453c39e)
+
+
+3)Desenvolva uma stored procedure para calcular o total de um pedido com base nos produtos incluídos:
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/7e54cc4f-9c4c-4bb1-a031-a56e3d41e11b)
+
+VIEWS:
+1)Crie uma view que mostre o histórico de pedidos de um cliente específico, incluindo os produtos incluídos em cada pedido:
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/dc4afa36-0c27-40de-b088-4bbc5d33bc8e)
+
+2)Implemente uma view que forneça uma lista de todos os produtos disponíveis, excluindo aqueles que estão esgotados.
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/8bc6e5ec-e90a-4289-bb9a-d690a708c0d3)
+
+
+
+
+
 
 
 
