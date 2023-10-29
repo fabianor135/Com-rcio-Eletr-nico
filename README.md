@@ -50,6 +50,7 @@ VIEWS:
 2)Implemente uma view que forneça uma lista de todos os produtos disponíveis, excluindo aqueles que estão esgotados.
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/8bc6e5ec-e90a-4289-bb9a-d690a708c0d3)
 
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/34704ee4-b557-4870-a317-4c5ea9e4b11f)
 
 
 
