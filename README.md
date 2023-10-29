@@ -17,6 +17,8 @@ TABELAS:
 RELACIONAMENTOS:
 
 1)Crie um relacionamento entre "Pedidos" e "Clientes" para rastrear os pedidos de cada cliente:
+
+
 OBS: não houve a necessidade de criar uma tabela de relacionamento entre "pedidos" e "clientes" para rastrear o pedido apenas consutei a tabela "pedidos":
 ![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/01ca4312-3494-4f18-8832-ae98c8056e18)
 
