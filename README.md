@@ -17,7 +17,16 @@ TABELAS:
 RELACIONAMENTOS:
 
 1)Crie um relacionamento entre "Pedidos" e "Clientes" para rastrear os pedidos de cada cliente:
-![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/1b5542ad-532e-4925-a398-34f0aef56cb3)
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/c13fea4f-1d3d-44e2-8583-543cde10a228)
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/a994e499-5df0-4569-b9f6-fde2b1175622)
+
+2)Estabeleça um relacionamento entre "Itens de Pedido" e "Produtos" para associar produtos a pedidos:
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/229393a6-37ae-4fc4-83d9-5d073ae0ef97)
+![image](https://github.com/fabianor135/Comercio-Eletronico/assets/84815028/89ede310-c7c9-45b3-b735-45f30067d8d7)
+
+
+
+
 
 
 
